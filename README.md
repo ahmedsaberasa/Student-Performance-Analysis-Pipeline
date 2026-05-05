@@ -27,15 +27,15 @@ Before any processing, we explored the full dataset structure, data types, descr
 
 **Dataset Overview & Data Types**
 
-![EDA Overview](images/01_eda_overview.png)
+![EDA Overview](students-performance-analysis/images/01_eda_overview.png)
 
 **Descriptive Statistics**
 
-![EDA Statistics](images/02_eda_statistics.png)
+![EDA Statistics](students-performance-analysis/images/02_eda_statistics.png)
 
 **Missing Values & Categorical Distributions**
 
-![EDA Distributions](images/03_eda_distributions.png)
+![EDA Distributions](students-performance-analysis/images/03_eda_distributions.png)
 
 ---
 
@@ -43,7 +43,7 @@ Before any processing, we explored the full dataset structure, data types, descr
 
 Renamed columns for clarity, enforced valid score ranges (0–100), standardized categorical text, filled missing values, and removed duplicates.
 
-![Cleaning Output](images/04_cleaning_output.png)
+![Cleaning Output](students-performance-analysis/images/04_cleaning_output.png)
 
 ---
 
@@ -51,7 +51,7 @@ Renamed columns for clarity, enforced valid score ranges (0–100), standardized
 
 Each business rule was verified independently. Only failing records are printed — making issues immediately actionable.
 
-![Validation Checks](images/05_validation_checks.png)
+![Validation Checks](students-performance-analysis/images/05_validation_checks.png)
 
 ---
 
@@ -70,7 +70,7 @@ Created 8 new meaningful features on top of the raw data:
 | `parent_edu_level` | Ordinal encoding of parental education |
 | `fully_prepared` | 1 if completed test prep AND has standard lunch |
 
-![Feature Engineering](images/06_feature_engineering.png)
+![Feature Engineering](students-performance-analysis/images/06_feature_engineering.png)
 
 ---
 
@@ -84,7 +84,7 @@ Five key findings visualized in a single professional dashboard:
 4. **Grade Distribution** — Most students fall in the B/C range
 5. **Lunch Type** — Standard lunch students outperform free/reduced lunch peers significantly
 
-![Dashboard](images/07_dashboard.png)
+![Dashboard](students-performance-analysis/images/07_dashboard.png)
 
 ---
 
